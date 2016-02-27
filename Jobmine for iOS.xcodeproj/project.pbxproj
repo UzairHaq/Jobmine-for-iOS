@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2E75D81C812FD300B8C94E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E75D71C812FD300B8C94E /* AppDelegate.swift */; };
+		AC2E75DA1C812FD300B8C94E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E75D91C812FD300B8C94E /* ViewController.swift */; };
+		AC2E75DD1C812FD300B8C94E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2E75DB1C812FD300B8C94E /* Main.storyboard */; };
+		AC2E75DF1C812FD300B8C94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2E75DE1C812FD300B8C94E /* Assets.xcassets */; };
+		AC2E75E21C812FD300B8C94E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2E75E01C812FD300B8C94E /* LaunchScreen.storyboard */; };
+		AC2E75ED1C812FD300B8C94E /* Jobmine_for_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E75EC1C812FD300B8C94E /* Jobmine_for_iOSTests.swift */; };
+		AC2E75F81C812FD300B8C94E /* Jobmine_for_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E75F71C812FD300B8C94E /* Jobmine_for_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC2E75E91C812FD300B8C94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC2E75CC1C812FD300B8C94E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2E75D31C812FD300B8C94E;
+			remoteInfo = "Jobmine for iOS";
+		};
+		AC2E75F41C812FD300B8C94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC2E75CC1C812FD300B8C94E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2E75D31C812FD300B8C94E;
+			remoteInfo = "Jobmine for iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC2E75D41C812FD300B8C94E /* Jobmine for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jobmine for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2E75D71C812FD300B8C94E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC2E75D91C812FD300B8C94E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC2E75DC1C812FD300B8C94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC2E75DE1C812FD300B8C94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC2E75E11C812FD300B8C94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC2E75E31C812FD300B8C94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2E75E81C812FD300B8C94E /* Jobmine for iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jobmine for iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2E75EC1C812FD300B8C94E /* Jobmine_for_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jobmine_for_iOSTests.swift; sourceTree = "<group>"; };
+		AC2E75EE1C812FD300B8C94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2E75F31C812FD300B8C94E /* Jobmine for iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jobmine for iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2E75F71C812FD300B8C94E /* Jobmine_for_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jobmine_for_iOSUITests.swift; sourceTree = "<group>"; };
+		AC2E75F91C812FD300B8C94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC2E75D11C812FD300B8C94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2E75E51C812FD300B8C94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2E75F01C812FD300B8C94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC2E75CB1C812FD300B8C94E = {
+			isa = PBXGroup;
+			children = (
+				AC2E75D61C812FD300B8C94E /* Jobmine for iOS */,
+				AC2E75EB1C812FD300B8C94E /* Jobmine for iOSTests */,
+				AC2E75F61C812FD300B8C94E /* Jobmine for iOSUITests */,
+				AC2E75D51C812FD300B8C94E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC2E75D51C812FD300B8C94E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC2E75D41C812FD300B8C94E /* Jobmine for iOS.app */,
+				AC2E75E81C812FD300B8C94E /* Jobmine for iOSTests.xctest */,
+				AC2E75F31C812FD300B8C94E /* Jobmine for iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC2E75D61C812FD300B8C94E /* Jobmine for iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC2E75D71C812FD300B8C94E /* AppDelegate.swift */,
+				AC2E75D91C812FD300B8C94E /* ViewController.swift */,
+				AC2E75DB1C812FD300B8C94E /* Main.storyboard */,
+				AC2E75DE1C812FD300B8C94E /* Assets.xcassets */,
+				AC2E75E01C812FD300B8C94E /* LaunchScreen.storyboard */,
+				AC2E75E31C812FD300B8C94E /* Info.plist */,
+			);
+			path = "Jobmine for iOS";
+			sourceTree = "<group>";
+		};
+		AC2E75EB1C812FD300B8C94E /* Jobmine for iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC2E75EC1C812FD300B8C94E /* Jobmine_for_iOSTests.swift */,
+				AC2E75EE1C812FD300B8C94E /* Info.plist */,
+			);
+			path = "Jobmine for iOSTests";
+			sourceTree = "<group>";
+		};
+		AC2E75F61C812FD300B8C94E /* Jobmine for iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC2E75F71C812FD300B8C94E /* Jobmine_for_iOSUITests.swift */,
+				AC2E75F91C812FD300B8C94E /* Info.plist */,
+			);
+			path = "Jobmine for iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC2E75D31C812FD300B8C94E /* Jobmine for iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2E75FC1C812FD300B8C94E /* Build configuration list for PBXNativeTarget "Jobmine for iOS" */;
+			buildPhases = (
+				AC2E75D01C812FD300B8C94E /* Sources */,
+				AC2E75D11C812FD300B8C94E /* Frameworks */,
+				AC2E75D21C812FD300B8C94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jobmine for iOS";
+			productName = "Jobmine for iOS";
+			productReference = AC2E75D41C812FD300B8C94E /* Jobmine for iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC2E75E71C812FD300B8C94E /* Jobmine for iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2E75FF1C812FD300B8C94E /* Build configuration list for PBXNativeTarget "Jobmine for iOSTests" */;
+			buildPhases = (
+				AC2E75E41C812FD300B8C94E /* Sources */,
+				AC2E75E51C812FD300B8C94E /* Frameworks */,
+				AC2E75E61C812FD300B8C94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2E75EA1C812FD300B8C94E /* PBXTargetDependency */,
+			);
+			name = "Jobmine for iOSTests";
+			productName = "Jobmine for iOSTests";
+			productReference = AC2E75E81C812FD300B8C94E /* Jobmine for iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC2E75F21C812FD300B8C94E /* Jobmine for iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2E76021C812FD300B8C94E /* Build configuration list for PBXNativeTarget "Jobmine for iOSUITests" */;
+			buildPhases = (
+				AC2E75EF1C812FD300B8C94E /* Sources */,
+				AC2E75F01C812FD300B8C94E /* Frameworks */,
+				AC2E75F11C812FD300B8C94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2E75F51C812FD300B8C94E /* PBXTargetDependency */,
+			);
+			name = "Jobmine for iOSUITests";
+			productName = "Jobmine for iOSUITests";
+			productReference = AC2E75F31C812FD300B8C94E /* Jobmine for iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC2E75CC1C812FD300B8C94E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Uzair Haq";
+				TargetAttributes = {
+					AC2E75D31C812FD300B8C94E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = W9VYLPUE8D;
+					};
+					AC2E75E71C812FD300B8C94E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = W9VYLPUE8D;
+						TestTargetID = AC2E75D31C812FD300B8C94E;
+					};
+					AC2E75F21C812FD300B8C94E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = W9VYLPUE8D;
+						TestTargetID = AC2E75D31C812FD300B8C94E;
+					};
+				};
+			};
+			buildConfigurationList = AC2E75CF1C812FD300B8C94E /* Build configuration list for PBXProject "Jobmine for iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC2E75CB1C812FD300B8C94E;
+			productRefGroup = AC2E75D51C812FD300B8C94E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC2E75D31C812FD300B8C94E /* Jobmine for iOS */,
+				AC2E75E71C812FD300B8C94E /* Jobmine for iOSTests */,
+				AC2E75F21C812FD300B8C94E /* Jobmine for iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC2E75D21C812FD300B8C94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2E75E21C812FD300B8C94E /* LaunchScreen.storyboard in Resources */,
+				AC2E75DF1C812FD300B8C94E /* Assets.xcassets in Resources */,
+				AC2E75DD1C812FD300B8C94E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2E75E61C812FD300B8C94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2E75F11C812FD300B8C94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC2E75D01C812FD300B8C94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2E75DA1C812FD300B8C94E /* ViewController.swift in Sources */,
+				AC2E75D81C812FD300B8C94E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2E75E41C812FD300B8C94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2E75ED1C812FD300B8C94E /* Jobmine_for_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2E75EF1C812FD300B8C94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2E75F81C812FD300B8C94E /* Jobmine_for_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC2E75EA1C812FD300B8C94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC2E75D31C812FD300B8C94E /* Jobmine for iOS */;
+			targetProxy = AC2E75E91C812FD300B8C94E /* PBXContainerItemProxy */;
+		};
+		AC2E75F51C812FD300B8C94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC2E75D31C812FD300B8C94E /* Jobmine for iOS */;
+			targetProxy = AC2E75F41C812FD300B8C94E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC2E75DB1C812FD300B8C94E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2E75DC1C812FD300B8C94E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC2E75E01C812FD300B8C94E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2E75E11C812FD300B8C94E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC2E75FA1C812FD300B8C94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC2E75FB1C812FD300B8C94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC2E75FD1C812FD300B8C94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jobmine for iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.uzairhaq.Jobmine-for-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC2E75FE1C812FD300B8C94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jobmine for iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.uzairhaq.Jobmine-for-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC2E76001C812FD300B8C94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jobmine for iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.uzairhaq.Jobmine-for-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jobmine for iOS.app/Jobmine for iOS";
+			};
+			name = Debug;
+		};
+		AC2E76011C812FD300B8C94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jobmine for iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.uzairhaq.Jobmine-for-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jobmine for iOS.app/Jobmine for iOS";
+			};
+			name = Release;
+		};
+		AC2E76031C812FD300B8C94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Jobmine for iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.uzairhaq.Jobmine-for-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jobmine for iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AC2E76041C812FD300B8C94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Jobmine for iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.uzairhaq.Jobmine-for-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jobmine for iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC2E75CF1C812FD300B8C94E /* Build configuration list for PBXProject "Jobmine for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2E75FA1C812FD300B8C94E /* Debug */,
+				AC2E75FB1C812FD300B8C94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2E75FC1C812FD300B8C94E /* Build configuration list for PBXNativeTarget "Jobmine for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2E75FD1C812FD300B8C94E /* Debug */,
+				AC2E75FE1C812FD300B8C94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC2E75FF1C812FD300B8C94E /* Build configuration list for PBXNativeTarget "Jobmine for iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2E76001C812FD300B8C94E /* Debug */,
+				AC2E76011C812FD300B8C94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC2E76021C812FD300B8C94E /* Build configuration list for PBXNativeTarget "Jobmine for iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2E76031C812FD300B8C94E /* Debug */,
+				AC2E76041C812FD300B8C94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC2E75CC1C812FD300B8C94E /* Project object */;
+}
