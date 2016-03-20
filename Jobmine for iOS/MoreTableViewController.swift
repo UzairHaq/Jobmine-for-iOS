@@ -14,6 +14,15 @@ class MoreTableViewController: UITableViewController {
         ThemeManager.colorWithKey("UICOLOR_NIGHTMODE_GRAY")
     }
     
+    private func signOut() {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setBool(false, forKey: "session")
+        
+        let loginController = self.storyboard?.instantiateViewControllerWithIdentifier("loginController") as! LoginViewController
+        self.presentViewController(loginController, animated: true, completion: nil)
+    }
+    
+    // MARK: UITableView Delegate Methods
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
     }
@@ -23,13 +32,19 @@ class MoreTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 1
+    }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if indexPath.row == 0 {
+            signOut()
+        }
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell")!
         
-        cell.textLabel?.text = "rows"
+        cell.textLabel?.text = "Sign Out"
         
         return cell
     }

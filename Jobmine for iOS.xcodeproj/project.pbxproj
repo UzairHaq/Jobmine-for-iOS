@@ -22,6 +22,7 @@
 		AC953F4C1C9F20BB0009FFEC /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC953F4B1C9F20BB0009FFEC /* MoreTableViewController.swift */; };
 		AC953F501C9F48970009FFEC /* themes.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC953F4F1C9F48970009FFEC /* themes.plist */; };
 		AC953F541C9F48E10009FFEC /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC953F531C9F48E10009FFEC /* ThemeManager.swift */; };
+		AC953F561C9F559A0009FFEC /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC953F551C9F559A0009FFEC /* UIColorExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		AC953F4B1C9F20BB0009FFEC /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
 		AC953F4F1C9F48970009FFEC /* themes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = themes.plist; sourceTree = "<group>"; };
 		AC953F531C9F48E10009FFEC /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		AC953F551C9F559A0009FFEC /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		BEDF0E67E174E4BC55DC99B1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C5B12FE000F3FDB7660E6BF7 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -148,6 +150,7 @@
 				AC2E75E31C812FD300B8C94E /* Info.plist */,
 				AC953F4F1C9F48970009FFEC /* themes.plist */,
 				AC953F531C9F48E10009FFEC /* ThemeManager.swift */,
+				AC953F551C9F559A0009FFEC /* UIColorExtensions.swift */,
 			);
 			path = "Jobmine for iOS";
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				AC953F4C1C9F20BB0009FFEC /* MoreTableViewController.swift in Sources */,
 				AC2E75D81C812FD300B8C94E /* AppDelegate.swift in Sources */,
 				AC953F541C9F48E10009FFEC /* ThemeManager.swift in Sources */,
+				AC953F561C9F559A0009FFEC /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
