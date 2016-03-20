@@ -44,7 +44,6 @@ class LoginNetworkManager: NSObject {
             } else {
                 let httpResponse = response as? NSHTTPURLResponse
                 if let response = httpResponse, url = response.URL {
-                    print(url)
                     let urlString = "\(url)"
                     let missingFieldError = "errorCode=106"
                     

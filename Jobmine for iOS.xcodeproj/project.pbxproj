@@ -17,7 +17,7 @@
 		AC2E75F81C812FD300B8C94E /* Jobmine_for_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E75F71C812FD300B8C94E /* Jobmine_for_iOSUITests.swift */; };
 		AC2E76061C81345E00B8C94E /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = AC2E76051C81345E00B8C94E /* PodFile */; };
 		AC2E76081C8146E400B8C94E /* LoginNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E76071C8146E400B8C94E /* LoginNetworkManager.swift */; };
-		AC59DB101C97A8E400FEA8E7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59DB0F1C97A8E400FEA8E7 /* MainTabBarController.swift */; };
+		AC59DB101C97A8E400FEA8E7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59DB0F1C97A8E400FEA8E7 /* MainViewController.swift */; };
 		AC8FD98A1C8CC06300619C77 /* LoginField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8FD9891C8CC06300619C77 /* LoginField.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +55,7 @@
 		AC2E75F91C812FD300B8C94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC2E76051C81345E00B8C94E /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
 		AC2E76071C8146E400B8C94E /* LoginNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginNetworkManager.swift; sourceTree = "<group>"; };
-		AC59DB0F1C97A8E400FEA8E7 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		AC59DB0F1C97A8E400FEA8E7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AC8FD9891C8CC06300619C77 /* LoginField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginField.swift; sourceTree = "<group>"; };
 		BEDF0E67E174E4BC55DC99B1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C5B12FE000F3FDB7660E6BF7 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				AC2E75D71C812FD300B8C94E /* AppDelegate.swift */,
-				AC59DB0F1C97A8E400FEA8E7 /* MainTabBarController.swift */,
+				AC59DB0F1C97A8E400FEA8E7 /* MainViewController.swift */,
 				AC2E75D91C812FD300B8C94E /* LoginViewController.swift */,
 				AC8FD9891C8CC06300619C77 /* LoginField.swift */,
 				AC2E76071C8146E400B8C94E /* LoginNetworkManager.swift */,
@@ -349,7 +349,7 @@
 			files = (
 				AC8FD98A1C8CC06300619C77 /* LoginField.swift in Sources */,
 				AC2E75DA1C812FD300B8C94E /* LoginViewController.swift in Sources */,
-				AC59DB101C97A8E400FEA8E7 /* MainTabBarController.swift in Sources */,
+				AC59DB101C97A8E400FEA8E7 /* MainViewController.swift in Sources */,
 				AC2E76081C8146E400B8C94E /* LoginNetworkManager.swift in Sources */,
 				AC2E75D81C812FD300B8C94E /* AppDelegate.swift in Sources */,
 			);
