@@ -19,6 +19,9 @@
 		AC2E76081C8146E400B8C94E /* LoginNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E76071C8146E400B8C94E /* LoginNetworkManager.swift */; };
 		AC59DB101C97A8E400FEA8E7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59DB0F1C97A8E400FEA8E7 /* MainViewController.swift */; };
 		AC8FD98A1C8CC06300619C77 /* LoginField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8FD9891C8CC06300619C77 /* LoginField.swift */; };
+		AC953F4C1C9F20BB0009FFEC /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC953F4B1C9F20BB0009FFEC /* MoreTableViewController.swift */; };
+		AC953F501C9F48970009FFEC /* themes.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC953F4F1C9F48970009FFEC /* themes.plist */; };
+		AC953F541C9F48E10009FFEC /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC953F531C9F48E10009FFEC /* ThemeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		AC2E76071C8146E400B8C94E /* LoginNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginNetworkManager.swift; sourceTree = "<group>"; };
 		AC59DB0F1C97A8E400FEA8E7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AC8FD9891C8CC06300619C77 /* LoginField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginField.swift; sourceTree = "<group>"; };
+		AC953F4B1C9F20BB0009FFEC /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
+		AC953F4F1C9F48970009FFEC /* themes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = themes.plist; sourceTree = "<group>"; };
+		AC953F531C9F48E10009FFEC /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		BEDF0E67E174E4BC55DC99B1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C5B12FE000F3FDB7660E6BF7 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,6 +138,7 @@
 			children = (
 				AC2E75D71C812FD300B8C94E /* AppDelegate.swift */,
 				AC59DB0F1C97A8E400FEA8E7 /* MainViewController.swift */,
+				AC953F4B1C9F20BB0009FFEC /* MoreTableViewController.swift */,
 				AC2E75D91C812FD300B8C94E /* LoginViewController.swift */,
 				AC8FD9891C8CC06300619C77 /* LoginField.swift */,
 				AC2E76071C8146E400B8C94E /* LoginNetworkManager.swift */,
@@ -139,6 +146,8 @@
 				AC2E75DE1C812FD300B8C94E /* Assets.xcassets */,
 				AC2E75E01C812FD300B8C94E /* LaunchScreen.storyboard */,
 				AC2E75E31C812FD300B8C94E /* Info.plist */,
+				AC953F4F1C9F48970009FFEC /* themes.plist */,
+				AC953F531C9F48E10009FFEC /* ThemeManager.swift */,
 			);
 			path = "Jobmine for iOS";
 			sourceTree = "<group>";
@@ -274,6 +283,7 @@
 				AC2E75E21C812FD300B8C94E /* LaunchScreen.storyboard in Resources */,
 				AC2E75DF1C812FD300B8C94E /* Assets.xcassets in Resources */,
 				AC2E76061C81345E00B8C94E /* PodFile in Resources */,
+				AC953F501C9F48970009FFEC /* themes.plist in Resources */,
 				AC2E75DD1C812FD300B8C94E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +361,9 @@
 				AC2E75DA1C812FD300B8C94E /* LoginViewController.swift in Sources */,
 				AC59DB101C97A8E400FEA8E7 /* MainViewController.swift in Sources */,
 				AC2E76081C8146E400B8C94E /* LoginNetworkManager.swift in Sources */,
+				AC953F4C1C9F20BB0009FFEC /* MoreTableViewController.swift in Sources */,
 				AC2E75D81C812FD300B8C94E /* AppDelegate.swift in Sources */,
+				AC953F541C9F48E10009FFEC /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

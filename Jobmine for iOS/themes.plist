@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UICOLOR_NIGHTMODE_GRAY</key>
+	<string>15181E</string>
+	<key>UICOLOR_TABBAR_TINT</key>
+	<string>62BFF4</string>
+</dict>
+</plist>

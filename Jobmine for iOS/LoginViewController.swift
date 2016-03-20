@@ -8,16 +8,6 @@
 
 import UIKit
 
-extension UIColor {
-    convenience init(red: Int, green: Int, blue: Int) {
-        self.init(red: CGFloat(red) / 255.0, green: CGFloat(green) / 255.0, blue: CGFloat(blue) / 255.0, alpha: 1.0)
-    }
-    
-    convenience init(netHex:Int) {
-        self.init(red:(netHex >> 16) & 0xff, green:(netHex >> 8) & 0xff, blue:netHex & 0xff)
-    }
-}
-
 class LoginViewController: UIViewController {
     private let userNameTextField = LoginField()
     private let passwordTextField = LoginField()
@@ -73,7 +63,7 @@ class LoginViewController: UIViewController {
         logoView.translatesAutoresizingMaskIntoConstraints = false
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         
-        self.view.backgroundColor = UIColor(netHex: 0x15181e)
+        self.view.backgroundColor = ThemeManager.colorWithKey("UICOLOR_NIGHTMODE_GRAY")
         
         let attributes = [NSForegroundColorAttributeName : UIColor.grayColor(), NSFontAttributeName: UIFont.systemFontOfSize(14.0)]
         userNameTextField.attributedPlaceholder = NSAttributedString(string: "User ID", attributes: attributes)
@@ -84,7 +74,7 @@ class LoginViewController: UIViewController {
         
         signinButton.layer.borderWidth = 1.0
         signinButton.setTitle("Login", forState: .Normal)
-        signinButton.setTitleColor(UIColor(netHex: 0x15181e), forState: .Normal)
+        signinButton.setTitleColor(ThemeManager.colorWithKey("UICOLOR_NIGHTMODE_GRAY"), forState: .Normal)
         signinButton.titleLabel?.font = UIFont.systemFontOfSize(16.0)
         signinButton.backgroundColor = UIColor.grayColor()
         signinButton.layer.borderColor = UIColor.clearColor().CGColor
