@@ -223,6 +223,7 @@ class LoginViewController: UIViewController {
     
     func submit() {
         signinButton.backgroundColor = UIColor.grayColor()
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = true
         
         let loginManager = LoginNetworkManager()
         loginManager.loginDelegate = self
@@ -247,7 +248,9 @@ extension LoginViewController: LoginDelegate {
                 defaults.removeObjectForKey("password")
             }
             
-            self.dismissViewControllerAnimated(true, completion: nil)
+            self.dismissViewControllerAnimated(true, completion: { () -> Void in
+                UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+            })
         }
     }
     
@@ -265,7 +268,9 @@ extension LoginViewController: LoginDelegate {
             }
             
             loginAlert.addAction(okAction)
-            self.presentViewController(loginAlert, animated: true, completion: nil)
+            self.presentViewController(loginAlert, animated: true, completion: { () -> Void in
+                UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+            })
         }
 
     }
@@ -278,7 +283,10 @@ extension LoginViewController: LoginDelegate {
             }
             
             loginAlert.addAction(okAction)
-            self.presentViewController(loginAlert, animated: true, completion: nil)
+            self.presentViewController(loginAlert, animated: true, completion: { () -> Void in
+                UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+            })
+
         }
     }
 }
