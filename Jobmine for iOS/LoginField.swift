@@ -21,7 +21,7 @@ class LoginField: UITextField {
     }
     
     private func setViews() {
-        let attributes = [NSForegroundColorAttributeName : UIColor.darkGrayColor(), NSFontAttributeName: UIFont.systemFontOfSize(14.0)]
+        let attributes = [NSForegroundColorAttributeName : UIColor.grayColor(), NSFontAttributeName: UIFont.systemFontOfSize(14.0)]
         
         self.attributedPlaceholder = NSAttributedString(string: "", attributes: attributes)
         self.contentVerticalAlignment = .Center
