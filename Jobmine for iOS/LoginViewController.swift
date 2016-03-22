@@ -63,7 +63,7 @@ class LoginViewController: UIViewController {
         logoView.translatesAutoresizingMaskIntoConstraints = false
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         
-        self.view.backgroundColor = ThemeManager.colorWithKey("UICOLOR_NIGHTMODE_GRAY")
+        self.view.backgroundColor = ThemeManager.sharedManager.colorWithKey("UICOLOR_NIGHTMODE_GRAY")
         
         let attributes = [NSForegroundColorAttributeName : UIColor.grayColor(), NSFontAttributeName: UIFont.systemFontOfSize(14.0)]
         userNameTextField.attributedPlaceholder = NSAttributedString(string: "User ID", attributes: attributes)
@@ -74,7 +74,7 @@ class LoginViewController: UIViewController {
         
         signinButton.layer.borderWidth = 1.0
         signinButton.setTitle("Login", forState: .Normal)
-        signinButton.setTitleColor(ThemeManager.colorWithKey("UICOLOR_NIGHTMODE_GRAY"), forState: .Normal)
+        signinButton.setTitleColor(ThemeManager.sharedManager.colorWithKey("UICOLOR_NIGHTMODE_GRAY"), forState: .Normal)
         signinButton.titleLabel?.font = UIFont.systemFontOfSize(16.0)
         signinButton.backgroundColor = UIColor.grayColor()
         signinButton.layer.borderColor = UIColor.clearColor().CGColor

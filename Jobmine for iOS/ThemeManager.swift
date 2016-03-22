@@ -9,14 +9,15 @@
 import UIKit
 
 class ThemeManager: NSObject {
-    private static let themesPath = NSBundle.mainBundle().pathForResource("themes", ofType: "plist")
-    private static var themesDict = NSDictionary()
+    static let sharedManager = ThemeManager()
+    private let themesPath = NSBundle.mainBundle().pathForResource("themes", ofType: "plist")
+    private var themesDict = NSDictionary()
     
-    override init() {
+    private override init() {
         super.init()
     }
     
-    class func colorWithKey(key: String) -> UIColor {
+    func colorWithKey(key: String) -> UIColor {
         themesDict = NSDictionary(contentsOfFile: themesPath!)!
         var colorNum = UInt32()
         
@@ -27,7 +28,7 @@ class ThemeManager: NSObject {
         return UIColor(netHex: Int(colorNum))
     }
     
-    private class func convertHexStringToInt(colorValue: AnyObject) -> UInt32 {
+    private func convertHexStringToInt(colorValue: AnyObject) -> UInt32 {
         let colorString = colorValue as! String
         let colorNum = UInt32(strtoul(colorString, nil, 16))
         return colorNum

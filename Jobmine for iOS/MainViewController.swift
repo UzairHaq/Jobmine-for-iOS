@@ -35,7 +35,7 @@ class MainViewController: UITabBarController {
     
     private func setupNavigationBar() {
         navigationVC = self.parentViewController as! UINavigationController
-        navigationVC.navigationBar.barTintColor = ThemeManager.colorWithKey("UICOLOR_NIGHTMODE_GRAY")
+        navigationVC.navigationBar.barTintColor = ThemeManager.sharedManager.colorWithKey("UICOLOR_NIGHTMODE_GRAY")
         navigationVC.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor(), NSFontAttributeName: UIFont.systemFontOfSize(18.0)]
         
         // No tab is selected yet, so this a hack because it always goes to the first tab on first launch
@@ -43,9 +43,9 @@ class MainViewController: UITabBarController {
     }
     
     private func setupTabBar() {
-        self.tabBar.barTintColor = ThemeManager.colorWithKey("UICOLOR_NIGHTMODE_GRAY")
+        self.tabBar.barTintColor = ThemeManager.sharedManager.colorWithKey("UICOLOR_NIGHTMODE_GRAY")
         self.tabBar.translucent = false
-        self.tabBar.tintColor = ThemeManager.colorWithKey("UICOLOR_TABBAR_TINT")
+        self.tabBar.tintColor = ThemeManager.sharedManager.colorWithKey("UICOLOR_TABBAR_TINT")
 
         for item in self.tabBar.items! {
             item.title = ""
