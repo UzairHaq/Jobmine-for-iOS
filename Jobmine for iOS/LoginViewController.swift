@@ -20,7 +20,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("Follow the Weekly AJ")
         setupViews()
         checkRememberState()
     }
