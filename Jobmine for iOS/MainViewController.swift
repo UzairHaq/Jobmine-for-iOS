@@ -39,7 +39,7 @@ class MainViewController: UITabBarController {
         navigationVC.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor(), NSFontAttributeName: UIFont.systemFontOfSize(18.0)]
         
         // No tab is selected yet, so this a hack because it always goes to the first tab on first launch
-        navigationVC.topViewController?.title = "First VC"
+        navigationVC.topViewController?.title = "WaterlooWorks iOS App"
     }
     
     private func setupTabBar() {
